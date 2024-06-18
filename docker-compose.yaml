@@ -1,14 +1,10 @@
-version: "2.27.0"
-
+version: "3.8"
 services:
   nextjs-gym-container:
     container_name: "nextjs-gym-container"
-    build:
-      context: .
-      dockerfile: Dockerfile
+    build: .
     ports:
       - 3000:3000
     environment:
       - NODE_ENV=production
-    volumes:
-      - ./app:/app
+    restart: always
