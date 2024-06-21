@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Facilities = () => {
   return (
-    <section className=" py-12 md:py-20 px-6 md:px-10">
+    <section className=" py-12 md:py-20 px-6 md:px-10" id="Gallery">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-5xl font-bold mb-8 text-center">Our Facilities</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">

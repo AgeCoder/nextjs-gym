@@ -11,22 +11,22 @@ const Navbar = () => {
           <h1 className="text-2xl font-bold">Gym name</h1>
         </div>
         <nav className="hidden md:flex items-center space-x-6">
-          <Link className="hover:underline" href="#">
+          <Link className="hover:underline" href="/">
             Home
           </Link>
-          <Link className="hover:underline" href="#">
+          <Link className="hover:underline" href="#Classes">
             Classes
           </Link>
-          <Link className="hover:underline" href="#">
+          <Link className="hover:underline" href="#Trainers">
             Trainers
           </Link>
-          <Link className="hover:underline" href="#">
+          <Link className="hover:underline" href="#Membership">
             Membership
           </Link>
-          <Link className="hover:underline" href="#">
+          <Link className="hover:underline" href="#Gallery">
             Gallery
           </Link>
-          <Link className="hover:underline" href="#">
+          <Link className="hover:underline" href="#Contact">
             Contact
           </Link>
         </nav>

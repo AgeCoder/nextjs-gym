@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Trainers = () => {
   return (
-    <section className="py-20 md:py-32">
+    <section className="py-20 md:py-32" id="Trainers">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center space-y-6">
           <h2 className="text-3xl font-bold">Our Expert Trainers</h2>
